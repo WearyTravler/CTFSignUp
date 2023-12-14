@@ -1,11 +1,12 @@
-# CTF Web Scraper
+# CTFSignUp: a CLI tool that displays the next top 10 CTFs based on the users criteria for which CTFs they want to compete in
 
 ## What do I want it to do?
 
-- Tell me the next 10 CTF competitions that are in a certain criteria (mode, weight, participants, types of challenges)
-- Sign up for the CTF through ctftime.org by clicking on a certain link with the "organizers blank"
-- possibly make some type of discord bot that pulls a users ctftime standing 
-- create something that will allow me to save it to a file, such as excel, or possibly an html doc that displays the logo of the ctf, when will it occur, basically the first thing above but with more visual flare!
+- Let the User Sign-in to the respected CTF site
+- Allow the User to check their Teams, Status, Users enrolled into the site
+- Sign-up/Participate for the top 10 upcoming CTFs in regards to their selected criteria in which type of CTFs they want to participate in
+- VERY CRAZY: 3rd party-sign up with same email used on site
+
 
 
 
