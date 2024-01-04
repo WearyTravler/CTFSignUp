@@ -1,0 +1,24 @@
+                                                 
+,---.--.--,---.    ,---.|,---.,   .    .   .,---.
+|      |  |__.     `---.||  _.|\  |    |   ||---'
+|      |  |            |||   || \ |    |   ||    
+`---'  `  `        `---'``---'`  `'    `---'`   
+@WearyTravler | v1.0 | Sign-up for all CTFs here!
+**************************************************
+
+Welcome! Thank you for choosing to use CTF Sign Up 
+for registering for all your CTFs needs. Here you'll be able
+to join any of the upcoming CTFs on ictf.org. This site will use 
+GitHub right now for signing into ctftime.
+
+Following Options:
+
+1) List the top 10 CTFs coming up
+2) Select an individual CTF to view
+3) Add your Team to Participate
+4) Quit
+
+
+Future Ideas:
+* Show more CTFs, (e.g. scroll through even futher into future CTFs coming up)
+* 
