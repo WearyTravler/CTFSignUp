@@ -17,3 +17,6 @@ print(page.text)
 #no headers returns 403 forbidden
 
 soup = BeautifulSoup(page.content, "html.parser")
+
+title =  soup.html.find('title')
+print(title)
