@@ -21,4 +21,6 @@ Following Options:
 
 Future Ideas:
 * Show more CTFs, (e.g. scroll through even futher into future CTFs coming up)
-* 
+* Add members to a team
+* Request to Join a Team
+* follow the organizer's of a CTF on Twitter/X
