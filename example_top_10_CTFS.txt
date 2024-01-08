@@ -6,4 +6,4 @@ Format:
 Location:
 Weight:
 Notes:
-# of Teams also Playing: 
+Team Count: 
