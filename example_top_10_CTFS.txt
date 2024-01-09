@@ -7,3 +7,6 @@ Location:
 Weight:
 Notes:
 Team Count: 
+
+
+Need to creat variables or arrays of choices in which CTFs a person wants to see.
