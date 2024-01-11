@@ -12,11 +12,21 @@ headers = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWeb
 
 page = requests.get(base_url, headers=headers)
 
-print(page.text)
+#print(page.text)
 
 #no headers returns 403 forbidden
 
-soup = BeautifulSoup(page.content, "html.parser")
+#soup = BeautifulSoup(page.content, "html.parser")
 
-title =  soup.html.find('title')
-print(title)
+def remove_tags(html):
+
+    soup = BeautifulSoup(page.content, "html.parser")
+
+    for data in soup(['style', 'script']):
+        data.decompose()
+
+    return ' '.join(soup.stripped_strings)
+
+
+# Print extracted data
+print(remove_tags(page))
