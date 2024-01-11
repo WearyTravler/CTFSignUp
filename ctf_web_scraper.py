@@ -16,7 +16,9 @@ page = requests.get(base_url, headers=headers)
 
 #no headers returns 403 forbidden
 
-#soup = BeautifulSoup(page.content, "html.parser")
+soup = BeautifulSoup(page.content, "html.parser")
+
+ctf_table = soup.find_all('table')
 
 def remove_tags(html):
 
@@ -29,4 +31,8 @@ def remove_tags(html):
 
 
 # Print extracted data
-print(remove_tags(page))
+#print(page.text)
+
+print(remove_tags(ctf_table))
+#print(soup.find_all('a'))
+#print(soup.find_all('table'))
