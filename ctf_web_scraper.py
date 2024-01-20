@@ -12,10 +12,6 @@ headers = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWeb
 
 page = requests.get(base_url, headers=headers)
 
-#print(page.text)
-
-#no headers returns 403 forbidden
-
 soup = BeautifulSoup(page.content, "html.parser")
 
 ctf_table = soup.find_all('table')
@@ -29,10 +25,5 @@ def remove_tags(html):
 
     return ' '.join(soup.stripped_strings)
 
-
-# Print extracted data
-#print(page.text)
-
 print(remove_tags(ctf_table))
-#print(soup.find_all('a'))
-#print(soup.find_all('table'))
+
