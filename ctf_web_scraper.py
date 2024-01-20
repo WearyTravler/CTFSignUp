@@ -25,5 +25,9 @@ def remove_tags(html):
 
     return ' '.join(soup.stripped_strings)
 
-print(remove_tags(ctf_table))
+# print(remove_tags(ctf_table))
 
+
+ctf_title = soup.find_all('title')
+
+print(ctf_title)
